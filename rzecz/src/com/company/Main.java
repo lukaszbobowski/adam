@@ -13,5 +13,10 @@ public class Main {
         System.out.println(gh1.getA());
         gh1.setA(321);
         System.out.println(gh1.getA());
+        ///////////////
+        GenericHolder oh1 = new GenericHolder(123);
+        System.out.println(oh1.getA());
+        gh1.setA(333);
+        System.out.println(oh1.getA());
     }
 }
