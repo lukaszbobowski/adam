@@ -6,6 +6,10 @@ public class LiczbaHolder {
         this.a = a;
     }
 
+    public LiczbaHolder() {
+
+    }
+
     public int getA() {
         return a;
     }

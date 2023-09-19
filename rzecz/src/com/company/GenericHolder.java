@@ -1,13 +1,17 @@
 package com.company;
 
-public class GenericHolder<AnyType> {
-    private AnyType a;
+public class GenericHolder<T> {
+    private T a;
 
-    public AnyType getA() {
+    public GenericHolder(T a) {
+        this.a = a;
+    }
+
+    public T getA() {
         return a;
     }
 
-    public void setA(AnyType a) {
+    public void setA(T a) {
         this.a = a;
     }
 }
