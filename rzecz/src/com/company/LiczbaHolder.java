@@ -14,3 +14,4 @@ public class LiczbaHolder {
         this.a = a;
     }
 }
+
