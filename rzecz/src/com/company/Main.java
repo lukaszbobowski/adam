@@ -18,10 +18,14 @@ public class Main {
         System.out.println(oh1.getA());
         gh1.setA(333);
         System.out.println(oh1.getA()); */
+        Car car1 = new Car("BMW", 22, 22, 22);
+        Car car2 = new Car("AUDISZ", 33, 33, 33);
+
 
         Compare a = new Compare();
         a.compareValues("aaa", "aa");
-        com
-
+        a.compareValues(3232, 333);
+        a.compareValues(1.1d, 2.1d);
+        a.compareValues(car1, car2);
     }
 }
